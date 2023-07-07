@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationReplace" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+                    <xpath>Defs/ThingDef[defName="HRK_KS23Charged"]/verbs</xpath>
+                    <value>
+                        <verbs>
+                            <li>
+                                <verbClass>Verb_Shoot</verbClass>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <defaultProjectile>HRK_Bullet_KS23Charged</defaultProjectile>
+                                <warmupTime>1</warmupTime>
+                                <range>17</range>
+                                <soundCast>HRK_Shot_KS23Charged</soundCast>
+                                <soundCastTail>GunTail_Medium</soundCastTail>
+                                <muzzleFlashScale>9</muzzleFlashScale>
+                                <commandIcon>UI/Weapons/HRK_KS23Charged</commandIcon>
+                                <label>Regular</label>
+                            </li>
+                            <li>
+                                <verbClass>Verb_Shoot</verbClass>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <defaultProjectile>HRK_Bullet_KS23ChargedIon</defaultProjectile>
+                                <warmupTime>1</warmupTime>
+                                <range>17</range>
+                                <soundCast>HRK_Shot_KS23Charged</soundCast>
+                                <soundCastTail>GunTail_Medium</soundCastTail>
+                                <muzzleFlashScale>5</muzzleFlashScale>
+                                <commandIcon>UI/Weapons/HRK_KS23Charged</commandIcon>
+                                <label>Ion</label>
+                            </li>
+                        </verbs>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+                    <xpath>Defs/ThingDef[defName="HRK_KS23Charged"]</xpath>
+                    <value>
+                        <comps>
+                            <li Class="MVCF.Comps.CompProperties_VerbProps">
+                                <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+                                <verbProps>
+                                    <li>
+                                        <label>Regular</label>
+                                        <canBeToggled>true</canBeToggled>
+                                        <separateToggle>false</separateToggle>
+                                    </li>
+                                    <li>
+                                        <label>Ion</label>
+                                        <canBeToggled>true</canBeToggled>
+                                        <separateToggle>false</separateToggle>
+                                    </li>
+                                </verbProps>
+                            </li>
+                        </comps>
+                    </value>
+                </li>
+
+            </operations>
+        </nomatch>
+    </Operation>
+
+</Patch>        

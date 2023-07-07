@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>Harkon.GunNut.KS23Shotgun</modId>
+        <key>KS23M_Camo</key>
+        <defaultValue>HRK_KS23M_Black</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_KS23M"]/graphicData/texPath</xpath>
+                <value>
+                    <texPath>Things/Weapons/HRK_KS23M/{KS23M_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_KS23M"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_KS23M/{KS23M_Camo}</uiIconPath>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>Harkon.GunNut.KS23Shotgun</modId>
+        <key>KS23L_Camo</key>
+        <defaultValue>HRK_KS23L_Black</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_KS23L"]/graphicData/texPath</xpath>
+                <value>
+                    <texPath>Things/Weapons/HRK_KS23L/{KS23L_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_KS23L"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_KS23L/{KS23L_Camo}</uiIconPath>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
+</Patch>

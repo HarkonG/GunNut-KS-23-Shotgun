@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="HRK_StyleCat_BlackCamo"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>HRK_KS23M</thingDef>
+                <styleDef>HRK_KS23M_BlackCamo</styleDef>
+            </li>
+            <li>
+                <thingDef>HRK_KS23L</thingDef>
+                <styleDef>HRK_KS23L_BlackCamo</styleDef>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="HRK_StyleCat_TanCamo"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>HRK_KS23M</thingDef>
+                <styleDef>HRK_KS23M_TanCamo</styleDef>
+            </li>
+            <li>
+                <thingDef>HRK_KS23L</thingDef>
+                <styleDef>HRK_KS23L_TanCamo</styleDef>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="HRK_StyleCat_WhiteCamo"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>HRK_KS23M</thingDef>
+                <styleDef>HRK_KS23M_WhiteCamo</styleDef>
+            </li>
+            <li>
+                <thingDef>HRK_KS23L</thingDef>
+                <styleDef>HRK_KS23L_WhiteCamo</styleDef>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

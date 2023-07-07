@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingStyleDef>
+        <defName>HRK_KS23M_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_KS23M/HRK_KS23M_Black</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_KS23M/HRK_KS23M_Black</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_KS23M_TanCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_KS23M/HRK_KS23M_Tan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_KS23M/HRK_KS23M_Tan</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_KS23M_WhiteCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_KS23M/HRK_KS23M_White</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_KS23M/HRK_KS23M_White</uiIconPath>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_KS23L_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_KS23L/HRK_KS23L_Black</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_KS23L/HRK_KS23L_Black</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_KS23L_TanCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_KS23L/HRK_KS23L_Tan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_KS23L/HRK_KS23L_Tan</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_KS23L_WhiteCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_KS23L/HRK_KS23L_White</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_KS23L/HRK_KS23L_White</uiIconPath>
+    </ThingStyleDef>
+
+</Defs>

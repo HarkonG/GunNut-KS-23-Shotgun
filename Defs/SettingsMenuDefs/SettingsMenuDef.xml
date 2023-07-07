@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XmlExtensions.SettingsMenuDef>
+        <defName>HRK_settings_GunNutKS23Shotgun</defName>
+        <modId>Harkon.GunNut.KS23Shotgun</modId>
+        <label>Gun Nut - KS-23 Shotgun</label>
+        <settings>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Gun Nut - KS-23 Shotgun</text>
+                <font>Medium</font>
+                <anchor>Middle</anchor>
+            </li>
+
+            <!-- ========== CAMO SETTINGS ========== -->
+
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>CAMO SETTINGS</text>
+                <anchor>Middle</anchor>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Select a camo per gun, most of the time is just a simple color swap but in some cases some details may change, refer to the mod page to preview the options. This setting only affects the base gun and does not affect ideology styles.</text>
+                <font>Tiny</font>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.SplitColumn">
+                <gapSize>70</gapSize>
+                <leftCol>
+
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>KS-23M</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap">
+                        <spacing>2</spacing>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.RadioButtons">
+                        <key>KS23M_Camo</key>
+                        <defaultValue>HRK_KS23M_Black</defaultValue>
+                        <buttons>
+                            <li>
+                                <value>HRK_KS23M_Black</value>
+                                <label>Black/Base</label>
+                            </li>
+                            <li>
+                                <value>HRK_KS23M_Tan</value>
+                                <label>Tan/Desert</label>
+                            </li>
+                            <li>
+                                <value>HRK_KS23M_White</value>
+                                <label>Snow/White</label>
+                            </li>
+                        </buttons>
+                    </li>
+
+                </leftCol>
+                <rightCol>
+
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>KS-23L</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap">
+                        <spacing>2</spacing>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.RadioButtons">
+                        <key>KS23L_Camo</key>
+                        <defaultValue>HRK_KS23L_Black</defaultValue>
+                        <buttons>
+                            <li>
+                                <value>HRK_KS23L_Black</value>
+                                <label>Black/Base</label>
+                            </li>
+                            <li>
+                                <value>HRK_KS23L_Tan</value>
+                                <label>Tan/Desert</label>
+                            </li>
+                            <li>
+                                <value>HRK_KS23L_White</value>
+                                <label>Snow/White</label>
+                            </li>
+                        </buttons>
+                    </li>
+
+                </rightCol>
+            </li>
+
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Remember any change of the settings needs a restart to take effect.</text>
+                <font>Tiny</font>
+            </li>
+            <li Class="XmlExtensions.Setting.Gap"/>
+            <li Class="XmlExtensions.Setting.ResetSettings"/>
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+        </settings>
+    </XmlExtensions.SettingsMenuDef>
+
+</Defs>

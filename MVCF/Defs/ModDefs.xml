@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <MVCF.ModDef>
+        <defName>HarkonGunNutKS23Shotgun</defName>
+        <label>[HRK] Gun Nut - KS-23 Shotgun</label>
+        <description>[HRK] Gun Nut - KS-23 Shotgun</description>
+        <ActivateFeatures>
+            <li>ExtraEquipmentVerbs</li>
+            <li>IntegratedToggle</li>
+        </ActivateFeatures>
+    </MVCF.ModDef>
+
+</Defs>
